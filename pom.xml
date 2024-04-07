@@ -117,5 +117,19 @@
 	</build>
 
 	
+	<distributionManagement>
+    <repository>
+      <id>maven-releases</id>
+      <name>Releases</name>
+      <url>http://3.111.186.208:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven-snapshots</id>
+      <name>Snapshot</name>
+      <url>http://3.111.186.208:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 
+
+	
 </project>
